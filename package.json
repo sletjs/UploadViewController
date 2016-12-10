@@ -1,0 +1,24 @@
+{
+  "name": "slet-uploadcontroller",
+  "version": "1.0.4",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sletjs/UploadController.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sletjs/UploadController/issues"
+  },
+  "homepage": "https://github.com/sletjs/UploadController#readme",
+  "dependencies": {
+    "koa-multer": "^1.0.0",
+    "slet-viewcontroller": "^1.0.5"
+  }
+}
