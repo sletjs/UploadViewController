@@ -1,10 +1,10 @@
 'use strict';
 
-const BasicController = require('slet-basiccontroller')
+const ViewController = require('slet-viewcontroller')
 // https://github.com/koa-modules/multer
 const multer = require('koa-multer')
 
-module.exports = class UploadController extends BasicController{
+module.exports = class UploadViewController extends ViewController{
   constructor(app, ctx, next) {
     super(app, ctx, next)
     
