@@ -10,7 +10,7 @@ module.exports = class UploadViewController extends ViewController{
     
     if (!this.app.opts.upload) {
       console.log('please give a upload config')
-      return;
+      this.app.opts.upload = { dest: './uploads/'};
     }
     
     // 定义global filter
