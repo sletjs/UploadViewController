@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/sletjs/UploadController#readme",
   "dependencies": {
-    "koa-multer": "^1.0.0",
+    "koa-multer": "^1.0.2",
     "slet-viewcontroller": "^1.0.5"
   }
 }
